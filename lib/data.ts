@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import stateMachine from "@/public/stateMachine.jpg";
+import whatsappAPI from "@/public/whatsapp-api.png";
+import mcp from "@/public/mcp.jpg";
 
 export const links = [
   {
@@ -35,58 +34,61 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Field Engineer",
+    location: "PT. Satunol Mikro Sistem",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Commissioned PLC, Multiplexer, and Teleprotection Systems for Siemens-PLN Project, and Baseband, MLTN, ML6K Systems for Ericsson-Telkomsel Project",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018-2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Trainee",
+    location: "Adinusa Bootcamp",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I have earned the LFCA (Linux Foundation Certified IT Associate) certification, along with several other certifications related to cloud computing, demonstrating my knowledge and skills in this area.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
+  },
+  {
+    title: "Core Banking Operation",
+    location: "BRI Ceria",
+    description:
+      "I processed End of Day operations for BRI Ceria, managed and monitored Nifi Flow and Grafana resources, and oversaw Finacle services. Additionally, I developed RPA solutions using UiPath to streamline reporting for Ceria.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "RPA End of Day",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This project aims to automate the submission process for End of Day (EOD) menus in a banking system (Finacle Core Banking) using UiPath.",
+    tags: ["UiPath", "Core Banking", "Postgresql", "API"],
+    imageUrl: stateMachine,
+    url: "https://github.com/nestorzamili/Thesis-Project",
   },
   {
-    title: "rmtDev",
+    title: "WhatsApp API",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "WhatsApp Bot built with Express.js, integrated via WhatsApp Web to send messages through API.",
+    tags: ["BOT", "WhatsApp", "Express.js", "API", "Node.js"],
+    imageUrl: whatsappAPI,
+    url: "https://github.com/nestorzamili/WhatsApp-Web-JS",
   },
   {
-    title: "Word Analytics",
+    title: "MCP Monitoring",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Web Application for Monitoring and Updating the status of documents.",
+    tags: ["Next.js", "PostgreSQL", "Clerck", "Vercel"],
+    imageUrl: mcp,
+    url: "https://monitoring-mcp.vercel.app/",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "UiPath",
+  "RPA",
   "JavaScript",
   "TypeScript",
   "React",
@@ -96,12 +98,9 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "SQL",
+  "Python",
+  "Linux",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;

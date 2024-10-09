@@ -19,30 +19,33 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I hold a Bachelor's degree in Information Systems from Binus University.
+        Passionate about technology and problem-solving, I thrive on creating
+        innovative solutions that benefit others. In my current role, I've
+        implemented <span className="font-medium">RPA UI Automation</span> using{" "}
+        <span className="font-medium">UiPath</span> and{" "}
+        <span className="font-medium">Node.js reporting systems</span> to
+        streamline tasks and enhance team efficiency. I am proficient in{" "}
+        <span className="font-medium">Linux</span>,{" "}
+        <span className="font-medium">SQL</span>, and{" "}
+        <span className="font-medium">Python</span> for automation, and my core
+        tech stack includes{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . Additionally, I have experience with TypeScript and Prisma.
+      </p>
+
+      <p>
+        I am always eager to learn new technologies and am currently seeking a{" "}
+        <span className="font-medium">full-time position</span> as an RPA
+        developer, where I can continue to apply and expand my skills in
+        automation and software development.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        video games, watching movies, and traveling.
       </p>
     </motion.section>
   );
