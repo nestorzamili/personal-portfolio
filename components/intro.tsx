@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">RPA developer</span> with{" "}
         <span className="font-bold">1 years</span> of experience. I enjoy
         building <span className="italic">automation & API</span>. My focus is{" "}
-        <span className="underline">RPA (UiPath)</span>.
+        <span className="underline">Robotic Process Automation (UiPath)</span>.
       </motion.h1>
 
       <motion.div
