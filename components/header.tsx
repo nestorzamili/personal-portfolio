@@ -41,6 +41,7 @@ export default function Header() {
                   setActiveSection(link.name);
                   setTimeOfLastClick(Date.now());
                 }}
+                aria-label={`Go to ${link.name}`}
               >
                 {link.name}
 

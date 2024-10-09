@@ -12,7 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
-  url, // Add url to the props
+  url,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -59,18 +59,22 @@ export default function Project({
             src={imageUrl}
             alt="Project I worked on"
             quality={95}
+            width={1388}
+            height={1432}
+            loading="lazy"
+            decoding="async"
             className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-            transition 
-            group-hover:scale-[1.04]
-            group-hover:-translate-x-3
-            group-hover:translate-y-3
-            group-hover:-rotate-2
+              transition 
+              group-hover:scale-[1.04]
+              group-hover:-translate-x-3
+              group-hover:translate-y-3
+              group-hover:-rotate-2
 
-            group-even:group-hover:translate-x-3
-            group-even:group-hover:translate-y-3
-            group-even:group-hover:rotate-2
+              group-even:group-hover:translate-x-3
+              group-even:group-hover:translate-y-3
+              group-even:group-hover:rotate-2
 
-            group-even:right-[initial] group-even:-left-40"
+              group-even:right-[initial] group-even:-left-40"
           />
         </section>
       </a>
